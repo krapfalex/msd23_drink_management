@@ -11,15 +11,15 @@ import java.util.NoSuchElementException;
 public class StringQueue implements IQueue {
 
   private List<String> elements = new ArrayList<String>();
-  private int maxSize = 5;
+  private int maxSize;    //deleted unnecessary declaration
 
-  public StringQueue(int maxsize) {
-    maxSize = maxSize;
-  }
+  public StringQueue(int maxSize) {
+    this.maxSize = maxSize;
+  }   //typo in maxSize, also added this.
 
   @Override
   public boolean offer(String obj) {
-    if (elements.size() != maxSize)
+    if (elements.size() < maxSize)      //changed != to < 
       elements.add(obj);
     else
       return false;
@@ -31,7 +31,7 @@ public class StringQueue implements IQueue {
   public String poll() {
     String element = peek();
 
-    if (elements.size() == 0) {
+    if (!elements.isEmpty()) {              //changed == to .isEmpty & negated argument
       elements.remove(0);
     }
 
@@ -68,4 +68,4 @@ public class StringQueue implements IQueue {
     return element;
   }
 
-}s
+}   //Removed typo
