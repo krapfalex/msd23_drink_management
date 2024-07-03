@@ -1,4 +1,4 @@
-package at.fhj.msd;
+package at.fhj.msd  ;
 
 /**
  * Abstract base class for concrete drink classes
