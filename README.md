@@ -22,10 +22,10 @@ Krapf Alexandra, Riedler Patrick
 - [x] create Tasklist
 
 #### Branch maven_detail
-- [ ] expand pom.xml
+- [x] expand pom.xml
 
 #### Branch bug_hunt
-- [ ] identify and correct 3 Errors in existing Code (StringQueue.java)
+- [x] identify and correct 3 Errors in existing Code (StringQueue.java)
 
 #### Branch drink
 - [ ] create class Cocktail (should implement interface Drink)
