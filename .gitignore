@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -12,6 +13,8 @@ target/
 *.iml
 *.ipr
 
+=======
+>>>>>>> maven
 .html
 .pdf
 .idea
