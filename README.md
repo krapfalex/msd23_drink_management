@@ -6,8 +6,6 @@ Krapf Alexandra, Riedler Patrick
 ### Description
 This project mixes cocktails based on internal decided recipes. The cocktails consist off multiple liquids. Maven and JUnit are used for testing.
 
-### Links
-
 ### Tasklist
 
 #### Branch maven
@@ -58,8 +56,5 @@ create tests for...
 
 #### Branch maven_site
 integrate...
-- [ ] project infos
-- [ ] test statistics (jacoco)
-- [ ] API Documentation
 - [x] Markdown Alex
 - [x] Markdown Patrick
