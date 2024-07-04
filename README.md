@@ -4,6 +4,7 @@
 Krapf Alexandra, Riedler Patrick
 
 ### Description
+This project mixes cocktails based on internal decided recipes. The cocktails consist off multiple liquids. The name of the Cocktail is decided in main method.
 
 ### Usage
 
@@ -28,7 +29,7 @@ Krapf Alexandra, Riedler Patrick
 - [x] identify and correct 3 Errors in existing Code (StringQueue.java)
 
 #### Branch drink
-- [ ] create class Cocktail (should implement interface Drink)
+- [x] create class Cocktail (should implement interface Drink)
 - [ ] drink method getVolume
 - [ ] d.m. getAlcoholPercent
 - [ ] d.m. isAlcoholic
