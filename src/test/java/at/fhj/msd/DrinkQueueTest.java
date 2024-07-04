@@ -64,4 +64,28 @@ public class DrinkQueueTest {
         Assertions.assertEquals(cocktailOne, drinkQueue.remove());
         Assertions.assertEquals(cocktailTwo, drinkQueue.remove());
    }
+
+   @Test
+    void peek(){
+        Assertions.assertEquals(null, drinkQueue.peek());
+
+        drinkQueue.offer(cocktailOne);
+        Assertions.assertEquals(cocktailOne, drinkQueue.peek());
+
+        drinkQueue.offer(cocktailTwo);
+        Assertions.assertEquals(cocktailOne, drinkQueue.peek());
+   }
+
+   @Test
+    void element(){
+       Exception exception = Assertions.assertThrows(NoSuchElementException.class, () -> {
+           drinkQueue.element();
+       });
+
+       drinkQueue.offer(cocktailOne);
+       Assertions.assertEquals(cocktailOne, drinkQueue.element());
+
+       drinkQueue.offer(cocktailTwo);
+       Assertions.assertEquals(cocktailOne, drinkQueue.element());
+   }
 }
