@@ -1,4 +1,4 @@
-# Student
+# Student 2
 
 **Name:** Patrick Riedler
 
@@ -6,6 +6,9 @@
 - Implemented the `Drink` interface.
 - Implemented the `Cocktail` class.
 - Wrote unit tests for the `Cocktail` class.
-- Implemented peek() and element() mehtods in `DrinkQueue`
+- Implemented peek() and element() methods in `DrinkQueue`
 - Implemented JavaDoc for `Liquid` and `Cocktail` 
 - Created Testcases for `Liquid` and `Cocktail` 
+- Added `site.xml`
+- Added personal ìnformation to `pom.xml`
+- Updated `README.md` continuously
