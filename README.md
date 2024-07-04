@@ -38,17 +38,17 @@ Krapf Alexandra, Riedler Patrick
 - [x] offer 
 - [x] method poll
 - [x] m. remove
-- [ ] m. peek
-- [ ] m. element
+- [x] m. peek
+- [x] m. element
 
 #### Branch javadoc
 create Javadoc commentary for... 
 - [ ] Drink
-- [ ] IQueue
+- [x] IQueue
 - [ ] Liquid
 - [ ] SimpleDrink
 - [ ] StringQueue
-- [ ] DrinkQueue
+- [x] DrinkQueue
 - [ ] Cocktail
 
 #### Branch tests
