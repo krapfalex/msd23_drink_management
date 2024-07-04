@@ -5,8 +5,6 @@ Krapf Alexandra, Riedler Patrick
 
 ### Description
 
-### Links
-
 ### Tasklist
 
 #### Branch maven
@@ -57,8 +55,5 @@ create tests for...
 
 #### Branch maven_site
 integrate...
-- [ ] project infos
-- [ ] test statistics (jacoco)
-- [ ] API Documentation
 - [x] Markdown Alex
 - [x] Markdown Patrick
