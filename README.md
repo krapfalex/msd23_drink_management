@@ -5,8 +5,6 @@ Krapf Alexandra, Riedler Patrick
 
 ### Description
 
-### Usage
-
 ### Links
 
 ### Tasklist
@@ -18,7 +16,7 @@ Krapf Alexandra, Riedler Patrick
 
 #### Branche readme
 - [x] create README.md
-- [ ] fill out contents
+- [x] fill out contents
 - [x] create Tasklist
 
 #### Branch maven_detail
@@ -28,10 +26,10 @@ Krapf Alexandra, Riedler Patrick
 - [x] identify and correct 3 Errors in existing Code (StringQueue.java)
 
 #### Branch drink
-- [ ] create class Cocktail (should implement interface Drink)
-- [ ] drink method getVolume
-- [ ] d.m. getAlcoholPercent
-- [ ] d.m. isAlcoholic
+- [x] create class Cocktail (should implement interface Drink)
+- [x] drink method getVolume
+- [x] d.m. getAlcoholPercent
+- [x] d.m. isAlcoholic
 
 #### Branch queue
 - [x] create class DrinkQueue
@@ -43,23 +41,19 @@ Krapf Alexandra, Riedler Patrick
 
 #### Branch javadoc
 create Javadoc commentary for... 
-- [ ] Drink
+- [x] Drink
 - [x] IQueue
 - [ ] Liquid
-- [ ] SimpleDrink
-- [ ] StringQueue
+- [x] StringQueue
 - [x] DrinkQueue
-- [ ] Cocktail
+- [x] Cocktail
 
 #### Branch tests
 create tests for...
-- [ ] Drink
-- [ ] IQueue
-- [ ] Liquid
-- [ ] SimpleDrink
-- [ ] StringQueue
-- [ ] DrinkQueue
-- [ ] Cocktail
+- [x] Liquid
+- [x] StringQueue
+- [x] DrinkQueue
+- [x] Cocktail
 
 #### Branch maven_site
 integrate...
