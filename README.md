@@ -35,10 +35,10 @@ This project mixes cocktails based on internal decided recipes. The cocktails co
 - [ ] d.m. isAlcoholic
 
 #### Branch queue
-- [ ] create class DrinkQueue
-- [ ] offer ??
-- [ ] method poll
-- [ ] m. remove
+- [x] create class DrinkQueue
+- [x] offer 
+- [x] method poll
+- [x] m. remove
 - [ ] m. peek
 - [ ] m. element
 
