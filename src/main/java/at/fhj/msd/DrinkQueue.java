@@ -59,10 +59,12 @@ public class DrinkQueue implements IQueue<Drink> {
      */
     @Override
     public Drink remove() {
+        Drink drink = peek();
         if (drinks.isEmpty()) {
             throw new NoSuchElementException("there's no element any more");
         } else {
-            return peek();
+            drinks.remove(0);
+            return drink;
         }
     }
 
@@ -72,7 +74,7 @@ public class DrinkQueue implements IQueue<Drink> {
      */
     @Override
     public Drink peek() {
-        if (!drinks.isEmpty()) {
+        if (drinks.isEmpty()) {
             return null;
         } else {
             return drinks.get(0);
@@ -85,7 +87,7 @@ public class DrinkQueue implements IQueue<Drink> {
      */
     @Override
     public Drink element() {
-        if (!drinks.isEmpty()) {
+        if (drinks.isEmpty()) {
             throw new NoSuchElementException("there's no element at the top of the list");
         } else {
             return drinks.get(0);
