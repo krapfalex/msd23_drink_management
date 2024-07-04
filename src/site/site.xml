@@ -1,0 +1,16 @@
+<project>
+    <name>msd23_drink_management</name>
+    <description>This project mixes cocktails based on internal decided recipes. The cocktails consist off multiple liquids. Maven and JUnit are used for testing.</description>
+    <publishDate>2024-07-04</publishDate>
+    <reports>
+        <plugin>org.apache.maven.plugins:maven-javadoc-plugin</plugin>
+        <plugin>org.apache.maven.plugins:maven-surefire-report-plugin</plugin>
+        <plugin>org.jacoco:jacoco-maven-plugin</plugin>
+    </reports>
+    <body>
+        <menu name="Team Members" >
+            <item name="Riedler" href="riedler.html"/>
+            <item name="Krapf" href="krapf.html"/>
+        </menu>
+    </body>
+</project>

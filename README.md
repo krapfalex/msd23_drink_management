@@ -4,7 +4,7 @@
 Krapf Alexandra, Riedler Patrick
 
 ### Description
-This project mixes cocktails based on internal decided recipes. The cocktails consist off multiple liquids. The name of the Cocktail is decided in main method.
+This project mixes cocktails based on internal decided recipes. The cocktails consist off multiple liquids. Maven and JUnit are used for testing.
 
 ### Usage
 
