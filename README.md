@@ -43,7 +43,7 @@ Krapf Alexandra, Riedler Patrick
 create Javadoc commentary for... 
 - [x] Drink
 - [x] IQueue
-- [ ] Liquid
+- [x] Liquid
 - [x] StringQueue
 - [x] DrinkQueue
 - [x] Cocktail
@@ -60,5 +60,5 @@ integrate...
 - [ ] project infos
 - [ ] test statistics (jacoco)
 - [ ] API Documentation
-- [ ] Markdown Alex
-- [ ] Markdown Patrick
+- [x] Markdown Alex
+- [x] Markdown Patrick
