@@ -1,38 +1,30 @@
+package at.fhj.msd;
 
 // fastly written (not really nice) comments you should adapt
-public interface IQueue {
+public interface IQueue<T> {
   /** 
-   * I am a really bad comment
-   * 
-   * fasdfadsffdsadsf
-   * 
-   * fdsasdfadsf
-   * 
-   *  add object to queue, true if okay 
-   * 
-   * i fell asleep on my keyboard...
-   * 
+
    * */ 
-  public abstract boolean offer(String obj);
+  public abstract boolean offer(T obj);
 
 
   //returns + del 1st element; null if nothing in there
    //
-  public abstract String poll();
+  public abstract T poll();
 
 
   /* 
   same as poll, if there is nothing in there error NoSuchElementException
    */
-  public abstract String remove();
+  public abstract T remove();
 
 
   // 1st element without delete, otherwise null
    
-  public abstract String peek();
+  public abstract T peek();
 
 
   // element is to peek what remove is to poll
   
-  public abstract String element();
+  public abstract T element();
 }
