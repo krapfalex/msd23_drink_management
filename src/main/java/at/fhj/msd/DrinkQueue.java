@@ -40,8 +40,8 @@ public class DrinkQueue implements IQueue<Drink> {
     }
 
     /**
-     * returns first Element of queue and removes it, if queue is empty, returns null
-     * @return first Element of queue
+     * returns first element of queue and removes it, if queue is empty, returns null
+     * @return first element of queue
      */
     @Override
     public Drink poll() {
@@ -54,8 +54,8 @@ public class DrinkQueue implements IQueue<Drink> {
     }
 
     /**
-     * returns first Element of queue and removes it, if queue is empty, throws NoSuchElementException
-     * @return first Element of queue
+     * returns first element of queue and removes it, if queue is empty, throws NoSuchElementException
+     * @return first element of queue
      */
     @Override
     public Drink remove() {
@@ -66,13 +66,29 @@ public class DrinkQueue implements IQueue<Drink> {
         }
     }
 
+    /**
+     * returns first element of queue, if queue is empty, returns null
+     * @return first element of queue if exists
+     */
     @Override
     public Drink peek() {
-        return null;
+        if (!drinks.isEmpty()) {
+            return null;
+        } else {
+            return drinks.get(0);
+        }
     }
 
+    /**
+     * returns first element of queue, if queue is empty, throws NoSuchElementException
+     * @return first element of queue if exists
+     */
     @Override
     public Drink element() {
-        return null;
+        if (!drinks.isEmpty()) {
+            throw new NoSuchElementException("there's no element at the top of the list");
+        } else {
+            return drinks.get(0);
+        }
     }
 }
