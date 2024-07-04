@@ -1,5 +1,5 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.example</groupId>
   <artifactId>msd23_drink_management</artifactId>
@@ -127,6 +127,13 @@
               <goal>report</goal>
             </goals>
           </execution>
+          <execution>
+            <id>report-aggregate</id>
+            <goals>
+              <goal>report-aggregate</goal>
+            </goals>
+            <phase>verify</phase>
+          </execution>
         </executions>
       </plugin>
       <plugin>
@@ -173,7 +180,7 @@
         <reportSets>
           <reportSet>
             <reports>
-              <!-- select non-aggregate reports -->
+              <!-- select aggregate reports for site -->
               <report>report</report>
             </reports>
           </reportSet>
