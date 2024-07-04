@@ -8,7 +8,7 @@ import java.util.NoSuchElementException;
 // there are different Bugs, wrong implementation, typos, ...
 // write Test-Cases (read Queue Interface for understanding methods) and use Debugging possibilies of your IDE
 
-public class StringQueue implements IQueue {
+public class StringQueue implements IQueue<String> {
 
   private List<String> elements = new ArrayList<String>();
   private int maxSize;    //deleted unnecessary declaration
@@ -19,7 +19,7 @@ public class StringQueue implements IQueue {
 
   @Override
   public boolean offer(String obj) {
-    if (elements.size() < maxSize)      //changed != to < 
+    if (elements.size() < maxSize)      //changed != to <
       elements.add(obj);
     else
       return false;
