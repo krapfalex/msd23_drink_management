@@ -1,2 +1,4 @@
-package at.fhj.msd;public class StringQueueTest {
+package at.fhj.msd;
+
+public class StringQueueTest {
 }
