@@ -134,7 +134,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>3.0.0</version>
         <configuration>
-          <mainClass>at.fhj.msd.main</mainClass>
+          <mainClass>main</mainClass>
         </configuration>
       </plugin>
     </plugins>
