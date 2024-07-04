@@ -1,30 +1,40 @@
 package at.fhj.msd;
 
-// fastly written (not really nice) comments you should adapt
 public interface IQueue<T> {
-  /** 
 
-   * */ 
+  /**
+   * adds an element to queue
+   * @param obj gets added
+   * @return returns if an element has been added
+   */
   public abstract boolean offer(T obj);
 
 
-  //returns + del 1st element; null if nothing in there
-   //
+  /**
+   * returns first element of queue and removes it, if queue is empty, returns null
+   * @return first element of queue
+   */
   public abstract T poll();
 
 
-  /* 
-  same as poll, if there is nothing in there error NoSuchElementException
+  /**
+   * returns first element of queue and removes it, if queue is empty, throws NoSuchElementException
+   * @return first element of queue
    */
   public abstract T remove();
 
 
-  // 1st element without delete, otherwise null
+  /**
+   * returns first element, if queue is empty, returns null
+   * @return first element of queue
+   */
    
   public abstract T peek();
 
 
-  // element is to peek what remove is to poll
-  
+  /**
+   * returns first element, if queue is empty, throws NoSuchElementException
+   * @return first element of queue
+   */
   public abstract T element();
 }
