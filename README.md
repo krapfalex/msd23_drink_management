@@ -35,21 +35,21 @@ This project mixes cocktails based on internal decided recipes. The cocktails co
 - [ ] d.m. isAlcoholic
 
 #### Branch queue
-- [ ] create class DrinkQueue
-- [ ] offer ??
-- [ ] method poll
-- [ ] m. remove
-- [ ] m. peek
-- [ ] m. element
+- [x] create class DrinkQueue
+- [x] offer 
+- [x] method poll
+- [x] m. remove
+- [x] m. peek
+- [x] m. element
 
 #### Branch javadoc
 create Javadoc commentary for... 
 - [ ] Drink
-- [ ] IQueue
+- [x] IQueue
 - [ ] Liquid
 - [ ] SimpleDrink
 - [ ] StringQueue
-- [ ] DrinkQueue
+- [x] DrinkQueue
 - [ ] Cocktail
 
 #### Branch tests
