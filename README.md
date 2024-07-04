@@ -6,8 +6,6 @@ Krapf Alexandra, Riedler Patrick
 ### Description
 This project mixes cocktails based on internal decided recipes. The cocktails consist off multiple liquids. Maven and JUnit are used for testing.
 
-### Usage
-
 ### Links
 
 ### Tasklist
@@ -19,7 +17,7 @@ This project mixes cocktails based on internal decided recipes. The cocktails co
 
 #### Branche readme
 - [x] create README.md
-- [ ] fill out contents
+- [x] fill out contents
 - [x] create Tasklist
 
 #### Branch maven_detail
@@ -30,9 +28,9 @@ This project mixes cocktails based on internal decided recipes. The cocktails co
 
 #### Branch drink
 - [x] create class Cocktail (should implement interface Drink)
-- [ ] drink method getVolume
-- [ ] d.m. getAlcoholPercent
-- [ ] d.m. isAlcoholic
+- [x] drink method getVolume
+- [x] d.m. getAlcoholPercent
+- [x] d.m. isAlcoholic
 
 #### Branch queue
 - [x] create class DrinkQueue
@@ -44,23 +42,19 @@ This project mixes cocktails based on internal decided recipes. The cocktails co
 
 #### Branch javadoc
 create Javadoc commentary for... 
-- [ ] Drink
+- [x] Drink
 - [x] IQueue
 - [ ] Liquid
-- [ ] SimpleDrink
-- [ ] StringQueue
+- [x] StringQueue
 - [x] DrinkQueue
-- [ ] Cocktail
+- [x] Cocktail
 
 #### Branch tests
 create tests for...
-- [ ] Drink
-- [ ] IQueue
-- [ ] Liquid
-- [ ] SimpleDrink
-- [ ] StringQueue
-- [ ] DrinkQueue
-- [ ] Cocktail
+- [x] Liquid
+- [x] StringQueue
+- [x] DrinkQueue
+- [x] Cocktail
 
 #### Branch maven_site
 integrate...
