@@ -34,10 +34,10 @@ Krapf Alexandra, Riedler Patrick
 - [ ] d.m. isAlcoholic
 
 #### Branch queue
-- [ ] create class DrinkQueue
-- [ ] offer ??
-- [ ] method poll
-- [ ] m. remove
+- [x] create class DrinkQueue
+- [x] offer 
+- [x] method poll
+- [x] m. remove
 - [ ] m. peek
 - [ ] m. element
 
